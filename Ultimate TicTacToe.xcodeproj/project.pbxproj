@@ -10,11 +10,20 @@
 		019BD24C26FD12AF00CB09AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD24B26FD12AF00CB09AD /* AppDelegate.swift */; };
 		019BD24E26FD12AF00CB09AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD24D26FD12AF00CB09AD /* SceneDelegate.swift */; };
 		019BD25026FD12AF00CB09AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD24F26FD12AF00CB09AD /* ViewController.swift */; };
-		019BD25326FD12AF00CB09AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019BD25126FD12AF00CB09AD /* Main.storyboard */; };
 		019BD25526FD12B000CB09AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019BD25426FD12B000CB09AD /* Assets.xcassets */; };
 		019BD25826FD12B000CB09AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019BD25626FD12B000CB09AD /* LaunchScreen.storyboard */; };
 		019BD26326FD12B100CB09AD /* Ultimate_TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD26226FD12B100CB09AD /* Ultimate_TicTacToeTests.swift */; };
 		019BD26E26FD12B100CB09AD /* Ultimate_TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD26D26FD12B100CB09AD /* Ultimate_TicTacToeUITests.swift */; };
+		019BD27D26FD153B00CB09AD /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 019BD27C26FD153B00CB09AD /* OpenSans-Bold.ttf */; };
+		019BD27F26FD154200CB09AD /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 019BD27E26FD154200CB09AD /* OpenSans-Regular.ttf */; };
+		019BD28126FD155100CB09AD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28026FD155100CB09AD /* Fonts.swift */; };
+		019BD28326FD17D100CB09AD /* OuterTicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28226FD17D100CB09AD /* OuterTicTacToe.swift */; };
+		019BD28526FD1BE400CB09AD /* InnerTicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28426FD1BE400CB09AD /* InnerTicTacToe.swift */; };
+		019BD28726FD1EC000CB09AD /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28626FD1EC000CB09AD /* BlankView.swift */; };
+		019BD28926FD204100CB09AD /* XView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28826FD204100CB09AD /* XView.swift */; };
+		019BD28D26FD21F000CB09AD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28C26FD21F000CB09AD /* Colors.swift */; };
+		019BD28F26FD234300CB09AD /* OView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD28E26FD234300CB09AD /* OView.swift */; };
+		019BD29126FD41A300CB09AD /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BD29026FD41A300CB09AD /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,6 @@
 		019BD24B26FD12AF00CB09AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019BD24D26FD12AF00CB09AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		019BD24F26FD12AF00CB09AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		019BD25226FD12AF00CB09AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		019BD25426FD12B000CB09AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019BD25726FD12B000CB09AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019BD25926FD12B000CB09AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		019BD26926FD12B100CB09AD /* Ultimate TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ultimate TicTacToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019BD26D26FD12B100CB09AD /* Ultimate_TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultimate_TicTacToeUITests.swift; sourceTree = "<group>"; };
 		019BD26F26FD12B100CB09AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019BD27C26FD153B00CB09AD /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		019BD27E26FD154200CB09AD /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		019BD28026FD155100CB09AD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		019BD28226FD17D100CB09AD /* OuterTicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterTicTacToe.swift; sourceTree = "<group>"; };
+		019BD28426FD1BE400CB09AD /* InnerTicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerTicTacToe.swift; sourceTree = "<group>"; };
+		019BD28626FD1EC000CB09AD /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		019BD28826FD204100CB09AD /* XView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XView.swift; sourceTree = "<group>"; };
+		019BD28C26FD21F000CB09AD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		019BD28E26FD234300CB09AD /* OView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OView.swift; sourceTree = "<group>"; };
+		019BD29026FD41A300CB09AD /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,20 @@
 		019BD24A26FD12AF00CB09AD /* Ultimate TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				019BD27B26FD153100CB09AD /* Fonts */,
 				019BD24B26FD12AF00CB09AD /* AppDelegate.swift */,
+				019BD29026FD41A300CB09AD /* GameState.swift */,
 				019BD24D26FD12AF00CB09AD /* SceneDelegate.swift */,
 				019BD24F26FD12AF00CB09AD /* ViewController.swift */,
-				019BD25126FD12AF00CB09AD /* Main.storyboard */,
+				019BD28226FD17D100CB09AD /* OuterTicTacToe.swift */,
+				019BD28426FD1BE400CB09AD /* InnerTicTacToe.swift */,
+				019BD28626FD1EC000CB09AD /* BlankView.swift */,
+				019BD28826FD204100CB09AD /* XView.swift */,
+				019BD28E26FD234300CB09AD /* OView.swift */,
 				019BD25426FD12B000CB09AD /* Assets.xcassets */,
 				019BD25626FD12B000CB09AD /* LaunchScreen.storyboard */,
 				019BD25926FD12B000CB09AD /* Info.plist */,
+				019BD28C26FD21F000CB09AD /* Colors.swift */,
 			);
 			path = "Ultimate TicTacToe";
 			sourceTree = "<group>";
@@ -126,6 +151,16 @@
 				019BD26F26FD12B100CB09AD /* Info.plist */,
 			);
 			path = "Ultimate TicTacToeUITests";
+			sourceTree = "<group>";
+		};
+		019BD27B26FD153100CB09AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				019BD27C26FD153B00CB09AD /* OpenSans-Bold.ttf */,
+				019BD27E26FD154200CB09AD /* OpenSans-Regular.ttf */,
+				019BD28026FD155100CB09AD /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +268,8 @@
 			files = (
 				019BD25826FD12B000CB09AD /* LaunchScreen.storyboard in Resources */,
 				019BD25526FD12B000CB09AD /* Assets.xcassets in Resources */,
-				019BD25326FD12AF00CB09AD /* Main.storyboard in Resources */,
+				019BD27F26FD154200CB09AD /* OpenSans-Regular.ttf in Resources */,
+				019BD27D26FD153B00CB09AD /* OpenSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019BD28126FD155100CB09AD /* Fonts.swift in Sources */,
+				019BD28D26FD21F000CB09AD /* Colors.swift in Sources */,
+				019BD28926FD204100CB09AD /* XView.swift in Sources */,
+				019BD28526FD1BE400CB09AD /* InnerTicTacToe.swift in Sources */,
 				019BD25026FD12AF00CB09AD /* ViewController.swift in Sources */,
+				019BD28326FD17D100CB09AD /* OuterTicTacToe.swift in Sources */,
 				019BD24C26FD12AF00CB09AD /* AppDelegate.swift in Sources */,
 				019BD24E26FD12AF00CB09AD /* SceneDelegate.swift in Sources */,
+				019BD28F26FD234300CB09AD /* OView.swift in Sources */,
+				019BD28726FD1EC000CB09AD /* BlankView.swift in Sources */,
+				019BD29126FD41A300CB09AD /* GameState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		019BD25126FD12AF00CB09AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				019BD25226FD12AF00CB09AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		019BD25626FD12B000CB09AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
